@@ -1,0 +1,81 @@
+<mat-grid-list cols="6" rowHeight="100px">
+    <mat-grid-tile
+        *ngFor="let tile of tiles"
+        [colspan]="tile.cols"
+        [rowspan]="tile.rows"
+        [style.background]="tile.color">
+            
+            <div *ngIf="tile.leftParallaxView"> 
+                left 
+            </div>
+            <div *ngIf="tile.mainView"> 
+                main 
+            </div>
+            <div *ngIf="tile.rightParallaxView"> 
+                right
+            </div>
+            {{tile.text}}
+    </mat-grid-tile>
+  </mat-grid-list>
+  
+<!-- <div class="content">
+    <br>
+    <p>thavy says hi text here so we ample vertical scroll to play with....</p>
+    <p>thavy says hi text here so we ample vertical scroll to play with....</p>
+    <p>thavy says hi text here so we ample vertical scroll to play with....</p>
+    <p>thavy says hi text here so we ample vertical scroll to play with....</p>
+    <p>thavy says hi text here so we ample vertical scroll to play with....</p>
+    <p>thavy says hi text here so we ample vertical scroll to play with....</p>
+    <p>thavy says hi text here so we ample vertical scroll to play with....</p>
+    <p>thavy says hi text here so we ample vertical scroll to play with....</p>
+    <p>thavy says hi text here so we ample vertical scroll to play with....</p>
+    <p>thavy says hi text here so we ample vertical scroll to play with....</p>
+    <p>thavy says hi text here so we ample vertical scroll to play with....</p>
+    <p>thavy says hi text here so we ample vertical scroll to play with....</p>
+    <p>thavy says hi text here so we ample vertical scroll to play with....</p>
+    <div class="example-box" cdkDrag>
+        Drag me around
+      </div>     
+    <ngx-parallax-scroll [config]="ngParallaxConf">
+        <img src="../assets/pepePiika.png" class="parallax-img" alt="parallax-img">
+      
+      </ngx-parallax-scroll>
+    <p>thavy says hi text here so we ample vertical scroll to play with....</p>
+    <p>thavy says hi text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+    <p>Lots of placeholder text here so we ample vertical scroll to play with....</p>
+</div> -->

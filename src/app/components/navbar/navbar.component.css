@@ -20,6 +20,16 @@
     /* background-color: #333333; */
 }
 
+.navbar-title {
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+.navbar-title:hover {
+    color: #60E7CC;
+    cursor: pointer;
+}
+
 .navbar-list li {
     float: right;
     color: #60E7CC;
@@ -27,6 +37,10 @@
 
 .navbar-list li span {
     display: block;
+}
+
+.navbar-list li span:hover {
+    cursor: default;
 }
 
 .navbar-list li span a {
@@ -44,7 +58,8 @@
 }
 
 .resume {
-    background: #6077CC;
+    /* background: #6077CC; */
+    border: solid 1px #60E7CC;
 }
 
 .navbar-list-item {

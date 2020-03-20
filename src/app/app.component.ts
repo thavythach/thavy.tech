@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { MatIconRegistry } from "@angular/material/icon";
+import { IParallaxScrollConfig } from 'ngx-parallax-scroll';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +10,16 @@ import { MatIconRegistry } from "@angular/material/icon";
 export class AppComponent {
   title = 'portfolio';
 
-  constructor(private matIconRegistry: MatIconRegistry) {
-   }
+  ngParallaxConf: IParallaxScrollConfig = {
+    parallaxSpeed: 1,
+    parallaxSmoothness: 1,
+    parallaxDirection: 'reverse',
+    parallaxTimingFunction: 'ease-in',
+    parallaxThrottleTime: 80
+  };
+
+  constructor() {
+    
+  }
 
 }
