@@ -14,13 +14,19 @@ import { MatIconModule } from "@angular/material/icon";
 import { ContentComponent } from './components/content/content.component';
 import { NgxParallaxScrollModule } from 'ngx-parallax-scroll';
 import { DragDropModule } from '@angular/cdk/drag-drop';
-import {MatGridListModule} from '@angular/material/grid-list'; 
+import {MatGridListModule} from '@angular/material/grid-list';
+import { ContentMainViewComponent } from './components/content-main-view/content-main-view.component';
+import { ContentLeftParallaxViewComponent } from './components/content-left-parallax-view/content-left-parallax-view.component';
+import { ContentRightParallaxViewComponent } from './components/content-right-parallax-view/content-right-parallax-view.component'; 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    ContentComponent
+    ContentComponent,
+    ContentMainViewComponent,
+    ContentLeftParallaxViewComponent,
+    ContentRightParallaxViewComponent
   ],
   imports: [
     BrowserModule,
