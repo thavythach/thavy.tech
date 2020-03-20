@@ -17,7 +17,11 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
 import {MatGridListModule} from '@angular/material/grid-list';
 import { ContentMainViewComponent } from './components/content-main-view/content-main-view.component';
 import { ContentLeftParallaxViewComponent } from './components/content-left-parallax-view/content-left-parallax-view.component';
-import { ContentRightParallaxViewComponent } from './components/content-right-parallax-view/content-right-parallax-view.component'; 
+import { ContentRightParallaxViewComponent } from './components/content-right-parallax-view/content-right-parallax-view.component';
+import { IntroComponent } from './components/intro/intro.component';
+import { AboutComponent } from './components/about/about.component';
+import { WorkComponent } from './components/work/work.component';
+import { ContactComponent } from './components/contact/contact.component'; 
 
 @NgModule({
   declarations: [
@@ -26,7 +30,11 @@ import { ContentRightParallaxViewComponent } from './components/content-right-pa
     ContentComponent,
     ContentMainViewComponent,
     ContentLeftParallaxViewComponent,
-    ContentRightParallaxViewComponent
+    ContentRightParallaxViewComponent,
+    IntroComponent,
+    AboutComponent,
+    WorkComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
