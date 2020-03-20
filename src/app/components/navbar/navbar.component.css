@@ -1,0 +1,52 @@
+.navbar-matbar {
+    color: primary;
+}
+
+.navbar-list {
+    font-size: 14px;
+}
+
+.navbar-right {
+    /* This fills the remaining space, by using flexbox. 
+       Every toolbar row uses a flexbox row layout. */
+    flex: 1 1 auto;
+}
+
+.navbar-list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333333; */
+}
+
+.navbar-list li {
+    float: right;
+    color: #60E7CC;
+}
+
+.navbar-list li span {
+    display: block;
+}
+
+.navbar-list li span a {
+    color: white;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 18px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-decoration: none;
+}
+
+.navbar-list li span a:hover {
+    color: #60E7CC;
+}
+
+.resume {
+    background: #6077CC;
+}
+
+.navbar-list-item {
+    color: #60E7CC;
+}
