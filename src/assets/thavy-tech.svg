@@ -1,0 +1,29 @@
+<svg width="520" height="520" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_1_blur">
+   <feGaussianBlur stdDeviation="2.9" in="SourceGraphic"/>
+  </filter>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_9_blur">
+   <feGaussianBlur stdDeviation="2.9" in="SourceGraphic"/>
+  </filter>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_14_blur">
+   <feGaussianBlur stdDeviation="3.4" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="522" width="522" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path transform="rotate(-0.047189272940158844 265.71612548828153,249.58383178712484) " filter="url(#svg_1_blur)" stroke="#000" id="svg_1" d="m20.724352,249.583828l46.789259,-146.166914l122.495181,-90.337196l151.414704,0l122.495937,90.337196l46.788486,146.166914l-46.788486,146.166914l-122.495937,90.337179l-151.414704,0l-122.495181,-90.337179l-46.789259,-146.166914z" stroke-width="9" fill="#fff"/>
+  <path transform="rotate(-0.047189272940158844 265.71612548828153,267.5838623047022) " filter="url(#svg_9_blur)" stroke="#000" id="svg_9" d="m20.724356,267.583832l46.78926,-146.16692l122.49518,-90.33719l151.4147,0l122.49594,90.33719l46.78848,146.16692l-46.78848,146.16691l-122.49594,90.33718l-151.4147,0l-122.49518,-90.33718l-46.78926,-146.16691z" stroke-width="1.5" fill="#fff"/>
+  <path transform="rotate(-0.047189272940158844 265.71612548828153,276.3338623046769) " stroke="#000" filter="url(#svg_9_blur)" id="svg_12" d="m20.724356,276.333832l46.78926,-146.16692l122.49518,-90.33719l151.4147,0l122.49594,90.33719l46.78848,146.16692l-46.78848,146.16691l-122.49594,90.33718l-151.4147,0l-122.49518,-90.33718l-46.78926,-146.16691z" stroke-width="9" fill="#fff"/>
+  <path transform="rotate(-0.047189272940158844 271.50836181642995,276.6736145019324) " stroke="#000" filter="url(#svg_14_blur)" id="svg_14" d="m60.570066,276.673592l40.28562,-125.3875l105.46853,-77.49465l130.36828,0l105.46918,77.49465l40.28495,125.3875l-40.28495,125.38749l-105.46918,77.49464l-130.36828,0l-105.46853,-77.49464l-40.28562,-125.38749z" stroke-width="9.5" fill="#fff"/>
+  <text transform="matrix(1.5452145784763331,0,0,1.3526394697374842,-141.8762452508746,-75.571602918911) " font-style="normal" font-weight="bold" stroke="#000" opacity="0.67" xml:space="preserve" text-anchor="start" font-family="Euphoria, sans-serif" font-size="250" id="svg_15" y="371.218769" x="191.814758" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">T</text>
+ </g>
+</svg>
