@@ -11,11 +11,13 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import { AngularSvgIconModule } from 'angular-svg-icon';
 import { HttpClientModule } from '@angular/common/http';
 import { MatIconModule } from "@angular/material/icon";
+import { ParallaxDirective } from './directives/parallax.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    ParallaxDirective
   ],
   imports: [
     BrowserModule,
