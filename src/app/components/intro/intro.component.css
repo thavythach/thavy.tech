@@ -1,0 +1,38 @@
+.intro {
+    /* background-color: lightskyblue; */
+    padding: 150px;
+}
+
+.intro-padding {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.intro-hello p {
+    color: #60E7CC;
+}
+
+.intro-name p {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.intro-quote p {
+    font-size: 60px;
+}
+
+.intro-details {
+    width: 500px;
+}
+
+.intro-content {
+    width: 1200px;
+    height: 500px;
+    background-color: #0A192F;
+    /* border: solid 1px white; */
+    padding: 5px;
+}
+
+.intro-content-details {
+    padding: 50px;
+}

@@ -15,6 +15,8 @@ import { ContentComponent } from './components/content/content.component';
 import { NgxParallaxScrollModule } from 'ngx-parallax-scroll';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import {MatGridListModule} from '@angular/material/grid-list';
+import {MatCardModule, MatCard} from '@angular/material/card';
+
 import { ContentMainViewComponent } from './components/content-main-view/content-main-view.component';
 import { ContentLeftParallaxViewComponent } from './components/content-left-parallax-view/content-left-parallax-view.component';
 import { ContentRightParallaxViewComponent } from './components/content-right-parallax-view/content-right-parallax-view.component';
@@ -45,7 +47,8 @@ import { ContactComponent } from './components/contact/contact.component';
     MatIconModule,
     NgxParallaxScrollModule,
     DragDropModule,
-    MatGridListModule
+    MatGridListModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
