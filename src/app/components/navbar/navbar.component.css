@@ -1,5 +1,6 @@
 .navbar-matbar {
     color: primary;
+    font-family:  var(--font-family);
 }
 
 .navbar-list {

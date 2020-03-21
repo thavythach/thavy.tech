@@ -1,11 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 import { MatIconRegistry } from "@angular/material/icon";
 import { IParallaxScrollConfig } from 'ngx-parallax-scroll';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
+  encapsulation: ViewEncapsulation.Emulated
 })
 export class AppComponent {
   title = 'portfolio';

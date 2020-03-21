@@ -17,6 +17,8 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatRippleModule} from '@angular/material/core';
+import {MatTabsModule} from '@angular/material/tabs';
+
 
 import { ContentMainViewComponent } from './components/content-main-view/content-main-view.component';
 import { ContentLeftParallaxViewComponent } from './components/content-left-parallax-view/content-left-parallax-view.component';
@@ -39,7 +41,7 @@ import { TitleComponent } from './components/title/title.component';
     AboutComponent,
     WorkComponent,
     ContactComponent,
-    TitleComponent
+    TitleComponent,
   ],
   imports: [
     BrowserModule,
@@ -52,7 +54,8 @@ import { TitleComponent } from './components/title/title.component';
     DragDropModule,
     MatGridListModule,
     MatProgressBarModule,
-    MatRippleModule
+    MatRippleModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

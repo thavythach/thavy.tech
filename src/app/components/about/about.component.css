@@ -1,3 +1,7 @@
+* {
+    font-family:  var(--font-family);
+}
+
 .about {
     /* background: lightsalmon; */
     padding: 150px;

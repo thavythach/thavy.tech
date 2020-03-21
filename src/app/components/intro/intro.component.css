@@ -37,6 +37,10 @@
     padding: 50px;
 }
 
+* {
+    font-family:  var(--font-family);
+}
+
 .intro-email a {
     border: solid 1px #60E7CC;
     color: white;

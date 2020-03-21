@@ -1,0 +1,47 @@
+.work {
+    /* background: lightsalmon; */
+    padding: 150px;
+}
+
+.work-content {
+    background-color: #0A192F;
+    padding: 50px;
+}
+
+.work-content-details {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mat-tab-group {
+    /* background-color: green; */
+    /* color: white; */
+    border: solid 1px black;
+}
+
+/* Styles for tab labels */
+.mat-tab-label {
+    min-width: 25px !important;
+    padding: 5px;
+    background-color: transparent;
+    color: white;
+    font-weight: 700;
+}
+
+/* Styles for the active tab label */
+.mat-tab-label.mat-tab-label-active {
+    /* min-width: 25px !important; */
+    /* padding: 5px; */
+    background-color: #172A45;
+    color: #60E7CC;
+    font-weight: 700;
+}
+
+/* Styles for the ink bar */
+.mat-ink-bar {
+    background-color: #60E7CC !important;
+}
+
+p {
+  font-family: Lato;
+}
