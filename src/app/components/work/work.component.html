@@ -1,9 +1,17 @@
 <div class="work">
     <div class="work-content">
-        <app-title title="Work Experience"></app-title>
+        <app-title title="Work Experience" title_item="02."></app-title>
         <div class="work-content-details">
             <mat-tab-group [style.labels-color]="color.color" [style.color]="color.color">
-                <mat-tab *ngFor="let exp of experiences" label="{{exp.text}}">{{exp.text}}</mat-tab>
+                <mat-tab *ngFor="let exp of experiences" label="{{exp.company}}">
+                    <div class="exp-content">
+                        <span class="exp-details">{{exp.title}} @ {{exp.company}}</span>
+                        <span class="exp-details">{{exp.start}} - {{exp.end}}</span>
+                        <ul>
+                           <li *ngFor="let details of exp.details">{{details}}</li> 
+                        </ul>
+                    </div>
+                </mat-tab>
             </mat-tab-group>
         </div>
     </div>
