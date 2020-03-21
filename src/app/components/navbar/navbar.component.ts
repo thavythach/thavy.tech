@@ -9,6 +9,9 @@ import { DomSanitizer } from "@angular/platform-browser";
 })
 export class NavbarComponent implements OnInit {
 
+  color = { color: '#0A192F'};
+  colortext = { color: '#60E7CC'};
+
   constructor(private matIconRegistry: MatIconRegistry, private domSanitizer: DomSanitizer) {
 
     // TODO: make this work somehow haha.

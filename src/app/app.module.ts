@@ -16,6 +16,7 @@ import { NgxParallaxScrollModule } from 'ngx-parallax-scroll';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
+import {MatRippleModule} from '@angular/material/core';
 
 import { ContentMainViewComponent } from './components/content-main-view/content-main-view.component';
 import { ContentLeftParallaxViewComponent } from './components/content-left-parallax-view/content-left-parallax-view.component';
@@ -50,7 +51,8 @@ import { TitleComponent } from './components/title/title.component';
     NgxParallaxScrollModule,
     DragDropModule,
     MatGridListModule,
-    MatProgressBarModule
+    MatProgressBarModule,
+    MatRippleModule
   ],
   providers: [],
   bootstrap: [AppComponent]

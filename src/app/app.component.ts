@@ -18,6 +18,13 @@ export class AppComponent {
     parallaxThrottleTime: 80
   };
 
+  centered = false;
+  disabled = false;
+  unbounded = false;
+
+  radius: number;
+  color = "#60E7CC";
+
   constructor() {
     
   }
