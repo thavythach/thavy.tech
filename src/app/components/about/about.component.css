@@ -1,0 +1,44 @@
+.about {
+    /* background: lightsalmon; */
+    padding: 150px;
+}
+
+.about-content {
+    background-color: #0A192F;
+    padding: 50px;
+}
+
+.about-content-details {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about-content-left-tech-p {
+    padding: 0;
+    margin-bottom: -20px;
+}
+
+.about-content-left a {
+    text-decoration: none;
+    color: #60E7CC;
+}
+
+.about-content-left-list li {
+    list-style: none;
+    color: #60E7CC;
+}
+
+.about-content-left-list {
+    column-count: 2;
+}
+
+.about-content-right {
+    
+}
+
+.about-content-right:hover {
+    cursor: pointer;
+    box-shadow: 10px 8px 50px #60E7CC;
+    border: solid 1px #60E7CC;
+}
+  

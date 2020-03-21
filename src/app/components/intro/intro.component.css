@@ -36,3 +36,17 @@
 .intro-content-details {
     padding: 50px;
 }
+
+.intro-email a {
+    border: solid 1px #60E7CC;
+    color: white;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 18px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.intro-email a:hover {
+    color: #60E7CC;
+}

@@ -15,7 +15,7 @@ import { ContentComponent } from './components/content/content.component';
 import { NgxParallaxScrollModule } from 'ngx-parallax-scroll';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import {MatGridListModule} from '@angular/material/grid-list';
-import {MatCardModule, MatCard} from '@angular/material/card';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 
 import { ContentMainViewComponent } from './components/content-main-view/content-main-view.component';
 import { ContentLeftParallaxViewComponent } from './components/content-left-parallax-view/content-left-parallax-view.component';
@@ -23,7 +23,8 @@ import { ContentRightParallaxViewComponent } from './components/content-right-pa
 import { IntroComponent } from './components/intro/intro.component';
 import { AboutComponent } from './components/about/about.component';
 import { WorkComponent } from './components/work/work.component';
-import { ContactComponent } from './components/contact/contact.component'; 
+import { ContactComponent } from './components/contact/contact.component';
+import { TitleComponent } from './components/title/title.component'; 
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { ContactComponent } from './components/contact/contact.component';
     IntroComponent,
     AboutComponent,
     WorkComponent,
-    ContactComponent
+    ContactComponent,
+    TitleComponent
   ],
   imports: [
     BrowserModule,
@@ -48,7 +50,7 @@ import { ContactComponent } from './components/contact/contact.component';
     NgxParallaxScrollModule,
     DragDropModule,
     MatGridListModule,
-    MatCardModule
+    MatProgressBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
