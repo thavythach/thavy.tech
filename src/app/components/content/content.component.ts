@@ -22,7 +22,7 @@ export class ContentComponent implements OnInit {
 
   tiles: Tile[] = [
     {text: 'One', cols: 1, rows: 4, color: '#0A192F', textColor: 'white', mainView: false, leftParallaxView: true, rightParallaxView: false},
-    {text: 'Two', cols: 4, rows: 1, color: '#0A192F', textColor: 'white', mainView: true, leftParallaxView: false, rightParallaxView: false},
+    {text: 'Two', cols: 4, rows: 3, color: '#0A192F', textColor: 'white', mainView: true, leftParallaxView: false, rightParallaxView: false},
     {text: 'Four', cols: 1, rows: 4, color: '#0A192F', textColor: 'white', mainView: false, leftParallaxView: false, rightParallaxView: true},
   ];
 

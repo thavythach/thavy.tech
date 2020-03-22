@@ -2,6 +2,7 @@
     width: 1500px;
 }
 
-/* .main-sub {
-    color: white;
-} */
+.main-sub {
+   padding-bottom: 100px;
+   padding-top: 100px;
+}

@@ -27,7 +27,8 @@ import { IntroComponent } from './components/intro/intro.component';
 import { AboutComponent } from './components/about/about.component';
 import { WorkComponent } from './components/work/work.component';
 import { ContactComponent } from './components/contact/contact.component';
-import { TitleComponent } from './components/title/title.component'; 
+import { TitleComponent } from './components/title/title.component';
+import { ProjectsComponent } from './components/projects/projects.component'; 
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { TitleComponent } from './components/title/title.component';
     WorkComponent,
     ContactComponent,
     TitleComponent,
+    ProjectsComponent,
   ],
   imports: [
     BrowserModule,
