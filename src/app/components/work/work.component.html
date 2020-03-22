@@ -2,7 +2,7 @@
     <div class="work-content">
         <app-title title="Work Experience" title_item="02."></app-title>
         <div class="work-content-details" (click)="workClick($event)" href="#Work">
-            <mat-tab-group [style.labels-color]="color.color" [style.color]="color.color" animationDuration="0ms" dynamicHeight>
+            <mat-tab-group [style.labels-color]="color.color" [style.color]="color.color" dynamicHeight>
                 <mat-tab *ngFor="let exp of experiences" label="{{exp.company}}" >
                     <div class="exp-content deeds">
                         <span class="exp-details-tico">

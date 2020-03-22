@@ -63,6 +63,7 @@ p {
 
 .exp-content {
     padding: 25px;
+    padding-bottom: 500px;
 }
 
 .exp-details-tenure {
@@ -84,10 +85,12 @@ p {
 }
 .deeds ul {
     /* padding-bottom: 500px; */
+    position: absolute;
 }
 
 .deeds li {
     padding: 4px;
+    
 }
 
 /* .condensed-deeds {

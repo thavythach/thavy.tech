@@ -76,7 +76,7 @@ export class WorkComponent implements OnInit {
       [
         "Introduced 3 Django Management Functions in Python as optimizations using the power of MySQL",
         "Designed and implemented dynamic repository web zone across all private labels using Zendesk API",
-        "Implemented new reusable middleware to x multiple redundancies with global ip congurations",
+        "Implemented new reusable middleware to fix multiple redundancies with global ip configurations",
         "Patched 17 customer facing bugs"
       ], logo: "../../../assets/ibm.gif"
     },
