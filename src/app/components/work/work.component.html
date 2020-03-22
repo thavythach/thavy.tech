@@ -5,11 +5,15 @@
             <mat-tab-group [style.labels-color]="color.color" [style.color]="color.color">
                 <mat-tab *ngFor="let exp of experiences" label="{{exp.company}}">
                     <div class="exp-content">
-                        <span class="exp-details">{{exp.title}} @ {{exp.company}}</span>
-                        <span class="exp-details">{{exp.start}} - {{exp.end}}</span>
+                        <span class="exp-details-tico">
+                            <span class="exp-title">{{exp.title}}</span><span class="exp-company"> @ {{exp.company}}</span></span>
+                        <br/>
+                        <span class="exp-details-tenure">{{exp.start}} - {{exp.end}}</span>
                         <ul>
                            <li *ngFor="let details of exp.details">{{details}}</li> 
                         </ul>
+
+                        <img src="{{exp.logo}}" width=50px height=50px/>
                     </div>
                 </mat-tab>
             </mat-tab-group>

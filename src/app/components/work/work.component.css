@@ -54,6 +54,15 @@ p {
     padding: 25px;
 }
 
-.exp-details {
-    padding: 10px;
+.exp-details-tenure {
+    font-size: 12px;
+    
+}
+
+.exp-details-tico {
+    font-size: 20px;
+}
+
+.exp-company {
+    color: #60E7CC;
 }
