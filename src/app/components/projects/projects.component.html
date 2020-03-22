@@ -1,5 +1,27 @@
-<div class="projects">
+<div class="projects" id="Projects">
     <div class="projects-content">
         <app-title title="Projects" title_item="03."></app-title>
+        <div class="projects-content-details">
+            <div *ngFor="let p of projects" class="p-individual">
+                <span *ngIf="p.featured" class="p-all">
+                    <span class="p-featured">Featured Project</span>
+                    <br/>
+                    <span class="p-name">{{p.name}}</span>
+                    <br/>
+                    <div class=" overlay-image">
+                        <img src="{{p.demo}}" width=570px height=360px class="p-img"/>    
+                        <div class="p-text">
+                            <div class="p-desc-background">
+                                <p>{{p.desc}}</p>
+                            </div>
+                            <div class="p-tags">
+                                <span *ngFor="let tag of p.tags" class="p-tags-details">{{tag}}&nbsp;&nbsp;</span>
+                            </div>
+                        </div>
+                    </div>              
+                </span>
+
+            </div>
+        </div>
     </div>
 </div>
