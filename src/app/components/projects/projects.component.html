@@ -20,8 +20,26 @@
                         </div>
                     </div>              
                 </span>
+            </div>
 
+            <span class="p-other-pros"><span class="p-other-pros-nice">03.5</span> Other Projects</span>
+
+            <div *ngFor="let p of projects" class="p-individual-other">
+                <span *ngIf="p.featured === false" class="p-other">
+                    <p>{{p.desc}}</p>
+                    <div class="p-tags">
+                        <span *ngFor="let tag of p.tags" class="p-tags-details">{{tag}}&nbsp;&nbsp;</span>
+                    </div>
+                    <br/>
+                    <br/>
+                    <span class="p-non-featured">Miscellaneous</span>
+                    <br/>
+                    <span class="p-name"><a href={{p.github}} target="_blank">{{p.name}}</a></span>
+                    <br/>
+
+                </span> 
             </div>
         </div>
     </div>
 </div>
+

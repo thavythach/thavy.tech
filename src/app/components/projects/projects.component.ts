@@ -16,7 +16,7 @@ export interface Project {
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
-
+  
   projects: Project[] = [
     {
       name: "MagusVR",
@@ -81,7 +81,7 @@ export class ProjectsComponent implements OnInit {
       featured: false,
       external: "#Projects",
       tags: ["Amazon Web Services", "Python", "Flask"],
-      github: "https://github.com/thavythach/MagusVR",
+      github: "#Projects",
       demo: "../../../assets/ibm.gif"
     },
   ];

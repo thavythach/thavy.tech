@@ -9,7 +9,6 @@ export interface Experience {
   logo: string;
 }
 
-
 @Component({
   selector: 'app-work',
   templateUrl: './work.component.html',

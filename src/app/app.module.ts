@@ -18,6 +18,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatRippleModule} from '@angular/material/core';
 import {MatTabsModule} from '@angular/material/tabs';
+import {MatExpansionModule} from '@angular/material/expansion';
 
 
 import { ContentMainViewComponent } from './components/content-main-view/content-main-view.component';
