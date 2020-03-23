@@ -25,7 +25,7 @@ export class ProjectsComponent implements OnInit {
       external: "#Projects",
       tags: ["Unity 3D", "C#", "Oculus Rift", "Leap Motion"],
       github: "#Projects",
-      demo: "../../../assets/ibm.gif"
+      demo: "../../../assets/magusvr.jpg"
     },
     {
       name: "UpCrate",
@@ -34,17 +34,17 @@ export class ProjectsComponent implements OnInit {
       external: "#Projects",
       tags: ["Laravel", "PHP", "Oculus Rift", "Leap Motion", "SQLite3"],
       github: "https://github.com/thavythach/UpCrate",
-      demo: "../../../assets/ibm.gif"
+      demo: "../../../assets/upcrate.png"
 
     },
     {
       name: "Reality Stocks",
-      desc: "Designed a ReactJS web app to allow hand gestures to navigate through financial stocks using the Leap Motion Hardware SDK.",
+      desc: "Designed a React web app to allow hand gestures to navigate through financial stocks using the Leap Motion Hardware SDK.",
       featured: true,
       external: "#Projects",
       tags: ["React", "Leap Motion", "Node.js", "Alphavantage Web API"],
       github: "https://github.com/thavythach/Reality-Stocks",
-      demo: "../../../assets/ibm.gif"
+      demo: "../../../assets/realitystocks.png"
 
     },
     {
@@ -64,7 +64,7 @@ export class ProjectsComponent implements OnInit {
       external: "https://youtu.be/XwlQ4TSUrJk",
       tags: ["Unity 3D", "C#", "Vuforia SDK"],
       github: "https://github.com/thavythach/GalleryAR",
-      demo: "../../../assets/ibm.gif"
+      demo: "../../../assets/galleryar.png"
     },
     {
       name: "AITAR",
@@ -73,7 +73,7 @@ export class ProjectsComponent implements OnInit {
       external: "#Projects",
       tags: ["Android", "Vuforia SDK", "Firebase", "OpenGL"],
       github: "https://github.com/thavythach/Android-AITAR",
-      demo: "../../../assets/ibm.gif"
+      demo: "../../../assets/aitar.png"
     },
     {
       name: "Packaged Life",

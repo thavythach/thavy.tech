@@ -20,7 +20,16 @@
 }
 
 .p-img {
-  display: block;
+    display: block;
+    padding: 25px;
+    border-radius: 10%;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.p-img:hover {
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
 }
 
 .p-individual {
@@ -35,7 +44,16 @@
 .p-name {
     font-weight: bold;
     font-size: 24px;
+    color: white;
+}
+
+.p-name a {
+    text-decoration: none;
     color: #60E7CC;
+}
+
+.p-name a:hover {
+    color: white;
 }
 
 /* Main container */
@@ -70,7 +88,7 @@
 }
 
 .p-text p {
-    padding: 50px;
+    padding: 10px;
 }
 
 .p-tags {
