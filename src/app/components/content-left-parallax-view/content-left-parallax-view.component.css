@@ -1,0 +1,12 @@
+a {
+
+}
+
+.parallax-link a .parallax-img:hover {
+    text-decoration: none;
+    background-color: #60E7CC;;
+}
+
+.parallax-img {
+    padding: 5px;
+}

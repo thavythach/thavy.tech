@@ -12,7 +12,7 @@ export class AppComponent {
   title = 'portfolio';
 
   ngParallaxConf: IParallaxScrollConfig = {
-    parallaxSpeed: 1,
+    parallaxSpeed: 2,
     parallaxSmoothness: 1,
     parallaxDirection: 'reverse',
     parallaxTimingFunction: 'ease-in',
