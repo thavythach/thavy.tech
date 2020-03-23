@@ -25,7 +25,7 @@ export class WorkComponent implements OnInit {
     {title: "Software Engineer", company: "IBM", start: "January 2020", end: "Present", details: 
       [
         "Write modern, performant, maintainable code for a diverse array of client and internal projects.",
-        "Work with a variety od different languages, platforms, and frameworks, such as: JavaScript, Angular, Java, and OracleDB.",
+        "Work with a variety of different languages, platforms, and frameworks, such as: JavaScript, Angular, Java, and OracleDB.",
       ], logo: "../../../assets/ibm.gif"
     },
     {title: "Computer Scientist", company: "Missile Defense Agency", start: "July 2019", end: "December 2019", details: 
