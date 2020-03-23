@@ -11,6 +11,7 @@ export class NavbarComponent implements OnInit {
 
   color = { color: '#0A192F'};
   colortext = { color: '#60E7CC'};
+  resume = "../../../assets/resume.pdf"
 
   constructor(private matIconRegistry: MatIconRegistry, private domSanitizer: DomSanitizer) {
 
