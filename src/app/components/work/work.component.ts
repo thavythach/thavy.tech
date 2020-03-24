@@ -58,9 +58,9 @@ export class WorkComponent implements OnInit {
     },
     {title: "Data Scientist Intern II", company: "Suplari", start: "December 2017", end: "January 2017", details: 
       [
-        "Wrote Transaction Categorization classication solutions producing 99% accuracy correspondence.",
+        "Wrote Transaction Categorization classification solutions producing 99% accuracy correspondence.",
         "Applied Python Scikit-Learn machine learning library to respond to feature detection and tuning of models.",
-        "Reduced Sales Analyst workload by 90% by developing a multiclassication solution on datasets ranging from 50K to 1.5Mrows."
+        "Reduced Sales Analyst workload by 90% by developing a multiclassification solution on datasets ranging from 50K to 1.5M rows."
       ], logo: "../../../assets/suplari.gif"
     },
     {title: "Data Scientist Intern I", company: "Suplari", start: "May 2017", end: "August 2017", details: 
