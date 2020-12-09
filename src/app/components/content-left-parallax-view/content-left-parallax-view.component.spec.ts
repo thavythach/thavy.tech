@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { ContentLeftParallaxViewComponent } from './content-left-parallax-view.component';
 
@@ -6,7 +6,7 @@ describe('ContentLeftParallaxViewComponent', () => {
   let component: ContentLeftParallaxViewComponent;
   let fixture: ComponentFixture<ContentLeftParallaxViewComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ ContentLeftParallaxViewComponent ]
     })
